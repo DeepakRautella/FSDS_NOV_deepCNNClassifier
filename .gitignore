@@ -135,3 +135,4 @@ dmypy.json
 *.zip
 artifacts/prepare_base_model/base_model.h5
 artifacts/prepare_base_model/base_model_updated.h5
+artifacts/
