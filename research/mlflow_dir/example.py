@@ -74,7 +74,7 @@ if __name__ == "__main__":
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
         
- #       remote_server_uri = "https://dagshub.com/c17hawke/FSDS_NOV_deepCNNClassifier.mlflow"
+        remote_server_uri = "https://dagshub.com/DeepakRautella/FSDS_NOV_deepCNNClassifier.mlflow"
         mlflow.set_tracking_uri(remote_server_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
